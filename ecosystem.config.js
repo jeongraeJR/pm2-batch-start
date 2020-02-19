@@ -12,7 +12,7 @@ module.exports = {
     script: './task4/bin/www',
     watch: false,
     max_restarts: 5,
-    cron_restart:'30 * * * *',
+    cron_restart:'*/30 * * * *',
     max_memory_restart: '200M',
   }
 ],
